@@ -1,13 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './icon.css'
 
 const Icon = ({randomIcon}) => {
-  return (<div>
+  return (
+  <>
     {randomIcon && 
     <FontAwesomeIcon 
     className="icon"
     icon={randomIcon} size="3x" />}
-  </div>
+  </>
   )
 };
 
