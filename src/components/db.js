@@ -4,7 +4,11 @@ import {
   faHeart,
   faStar,
   faCake,
-  faSpaceShuttle
+  faSpaceShuttle,
+  faGhost,
+  faLink,
+  faSave,
+  faUmbrella
 } from "@fortawesome/free-solid-svg-icons";
 
 export const icons = [
@@ -13,5 +17,9 @@ export const icons = [
   faHeart,
   faStar,
   faCake,
-  faSpaceShuttle
+  faSpaceShuttle,
+  faGhost,
+  faLink,
+  faSave,
+  faUmbrella
 ];
